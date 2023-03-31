@@ -2,11 +2,10 @@ var msg_one = document.getElementById("msg_one");
 var msg_two = document.getElementById("msg_two");
 var count = 0;
 var ans =  Math.floor(Math.random()*100)
-console.log(ans);
 
 function decider(){
     var inputNum = document.getElementById("inputNum").value;
-
+    
     count = count + 1;
 
     if(inputNum == ans){
