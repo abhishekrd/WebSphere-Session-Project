@@ -6,7 +6,7 @@ var ans =  Math.floor(Math.random()*100)
 function decider(){
     var inputNum = document.getElementById("inputNum").value;
     if(!inputNum){
-        window.alert("Please enter the Number to guess!")
+       return window.alert("Please enter the Number to guess!")
     }
     count = count + 1;
 
